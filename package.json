@@ -2,13 +2,19 @@
   "name": "typeguards",
   "version": "0.0.1",
   "description": "A TypeScript utility package to provide simple, type-safe checks.",
-  "keywords": ["TypeScript", "type safe","utility"],
+  "keywords": [
+    "TypeScript",
+    "type safe",
+    "utility"
+  ],
   "bugs": {
     "url": "https://github.com/streams-in-silence/type-guard/issues"
   },
   "license": "Unlicense",
   "author": "Massimo Rosin",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/type-guard.umd.js",
   "module": "dist/type-guard.js",
   "type": "module",
@@ -22,7 +28,7 @@
   "repository": "https://github.com/streams-in-silence/type-guard.git",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
     "test:coverage": "vitest run --coverage"
