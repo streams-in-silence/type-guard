@@ -21,15 +21,14 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/type-guard.js",
-      "require": "./dist/type-guard.umd.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.js"
     }
   },
   "repository": "https://github.com/streams-in-silence/type-guard.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
     "test": "vitest",
     "test:coverage": "vitest run --coverage"
   },

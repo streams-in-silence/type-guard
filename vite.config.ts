@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => ({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'type-guard',
-      fileName: 'type-guard',
+      fileName: 'index',
     },
   },
   plugins: [
