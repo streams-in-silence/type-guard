@@ -13,7 +13,9 @@
   "license": "Unlicense",
   "author": "Massimo Rosin",
   "files": [
-    "dist"
+    "dist",
+    "UNLICENSE.md",
+    "README.md"
   ],
   "main": "dist/type-guard.umd.js",
   "module": "dist/type-guard.js",
