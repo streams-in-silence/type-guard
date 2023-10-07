@@ -12,7 +12,6 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     dts({
-      noEmitOnError: false,
       afterDiagnostic: (diagnostics) => {
         if (mode === 'development') {
           return;
