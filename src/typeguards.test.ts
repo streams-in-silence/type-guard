@@ -22,7 +22,7 @@ import {
   isUndefined,
   isWeakMap,
   isWeakSet,
-} from './typeguard';
+} from './typeguards';
 
 function noop() {
   // empty
