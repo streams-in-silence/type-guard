@@ -7,7 +7,7 @@ import {
   isError,
   isFunction,
   isMap,
-  isNaN,
+  isNotANumber,
   isNone,
   isNotNone,
   isNull,
@@ -97,7 +97,7 @@ describe('typeguards', () => {
     });
   });
 
-  describe('isNaN', () => {
+  describe('isNotANumber', () => {
     it.each([
       { expected: true, type: 'NaN', value: NaN },
       // false
@@ -105,7 +105,7 @@ describe('typeguards', () => {
       { expected: false, type: 'number', value: 0 },
       { expected: false, type: 'undefined', value: undefined },
     ])('should work for $type', ({ expected, value }) => {
-      expect(isNaN(value)).toBe(expected);
+      expect(isNotANumber(value)).toBe(expected);
     });
   });
 
